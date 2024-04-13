@@ -4,6 +4,9 @@
 ul,
 ol {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -15,22 +18,34 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding: left 15px;
+  padding: right 15px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+/* ------------------------header----------*/
 .header {
 }
-
 .nav {
 }
-
 .header-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -40,7 +55,6 @@ h6 {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 .header-link-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,13 +64,10 @@ h6 {
   text-transform: uppercase;
   color: #2e2f42;
 }
-
 .header-list {
 }
-
 .header-item {
 }
-
 .header-item-link {
   font-weight: 500;
   font-size: 16px;
@@ -64,7 +75,6 @@ h6 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .header-item-link:hover,
 .header-item-link:focus {
   color: #404bbf;
@@ -73,13 +83,10 @@ h6 {
 .address {
   font-style: normal;
 }
-
 .address-list {
 }
-
 .address-item {
 }
-
 .address-item-link {
   font-weight: 400;
   font-size: 16px;
@@ -87,16 +94,14 @@ h6 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .address-item-link:hover,
 .address-item-link:focus {
   color: #404bbf;
 }
-
-.first {
+/* -------------Effective -----*/
+.effective {
   background-color: #2e2f42;
 }
-
 .title {
   font-weight: 700;
   font-size: 56px;
@@ -105,7 +110,6 @@ h6 {
   color: #fff;
   text-align: center;
 }
-
 .title-button {
   font-weight: 500;
   font-size: 16px;
@@ -116,13 +120,15 @@ h6 {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
-
 .title-button:hover,
 .title-button:focus {
   background-color: #404bbf;
 }
+/* ---------- Our-------*/
 
-.second-title {
+.our {
+}
+.title-second {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,24 +137,17 @@ h6 {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
-.third-title {
+.our-list {
+}
+.our-item {
+}
+.title-third {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.second {
-}
-
-.second-list {
-}
-
-.second-item {
-}
-
 .text {
   font-weight: 400;
   font-size: 16px;
@@ -156,33 +155,28 @@ h6 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.third {
+/*------------Our Team-------*/
+.team {
   background-color: #f4f4fd;
 }
-
-.third-list {
+.team-list {
+}
+.team-item {
 }
 
-.third-item {
-  background-color: #ffffff;
+.our-team-img {
 }
+/*-----Our Portfolio-----*/
 
-.third-img {
+.portfolio {
 }
-
-.fourth {
+.portfolio-list {
 }
-
-.fourth-list {
+.portfolio-item {
 }
-
-.fourth-item {
+.portfolio-img {
 }
-
-.fourth-img {
-}
-
+/*------------Footer--------*/
 .footer {
   background-color: #2e2f42;
 }
