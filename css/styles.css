@@ -59,8 +59,9 @@ address {
 }
 .nav {
   display: flex;
-  gap: 76px;
+
   margin-right: 332px;
+  align-items: center;
 }
 .logo {
   display: flex;
@@ -73,6 +74,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  gap: 76px;
 }
 .header-link-span {
   font-family: "Raleway", sans-serif;
@@ -173,7 +175,7 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-list {
@@ -181,6 +183,7 @@ address {
   gap: 24px;
 }
 .our-item {
+  flex-basis: calc((100%-72px) / 4);
 }
 .title-third {
   font-weight: 500;
@@ -188,7 +191,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .text {
   font-weight: 400;
