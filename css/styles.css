@@ -1,6 +1,5 @@
 * {
 }
-
 ul,
 ol {
   list-style: none;
@@ -8,17 +7,14 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-
 h1,
 h2,
 h3,
@@ -29,20 +25,37 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 img {
   display: block;
 }
-
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
 .container {
   max-width: 1158px;
-  padding: left 15px;
-  padding: right 15px;
-  margin-left: 156px;
-  margin-right: 156px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* ------------------------header----------*/
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav {
 }
@@ -79,7 +92,6 @@ img {
 .header-item-link:focus {
   color: #404bbf;
 }
-
 .address {
   font-style: normal;
 }
@@ -101,6 +113,8 @@ img {
 /* -------------Effective -----*/
 .effective {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .title {
   font-weight: 700;
@@ -109,6 +123,9 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 68px;
 }
 .title-button {
   font-weight: 500;
@@ -119,14 +136,19 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  display: block;
 }
+
 .title-button:hover,
 .title-button:focus {
   background-color: #404bbf;
 }
-/* ---------- Our-------*/
 
+/* ---------- Our-------*/
 .our {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-second {
   font-weight: 700;
@@ -136,6 +158,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .our-list {
 }
@@ -147,6 +170,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .text {
   font-weight: 400;
@@ -158,29 +182,36 @@ img {
 /*------------Our Team-------*/
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-list {
 }
 .team-item {
 }
 
-.our-team-img {
+.team-img {
+  padding-bottom: 32px;
 }
 /*-----Our Portfolio-----*/
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-list {
 }
 .portfolio-item {
 }
 .portfolio-img {
+  padding-bottom: 32px;
 }
 /*------------Footer--------*/
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
 .footer-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -190,7 +221,6 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-
 .footer-link-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -199,7 +229,6 @@ img {
   letter-spacing: 0.03em;
   color: #f4f4fd;
 }
-
 .footer-text {
   font-weight: 400;
   font-size: 16px;
