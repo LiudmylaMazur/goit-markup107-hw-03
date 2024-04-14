@@ -60,7 +60,6 @@ address {
 .nav {
   display: flex;
 
-  margin-right: 332px;
   align-items: center;
 }
 .logo {
@@ -74,7 +73,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  gap: 76px;
+  margin-right: 76px;
+  align-items: center;
 }
 .header-link-span {
   font-family: "Raleway", sans-serif;
@@ -89,6 +89,7 @@ address {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-right: 332px;
 }
 .header-item {
 }
@@ -167,7 +168,27 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.title-second {
+.title-second-our {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.title-third-our {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.title-second-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -185,14 +206,7 @@ address {
 .our-item {
   flex-basis: calc((100%-72px) / 4);
 }
-.title-third {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
+
 .text {
   font-weight: 400;
   font-size: 16px;
@@ -206,18 +220,53 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.title-third-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 .team-list {
   display: flex;
   gap: 24px;
 }
 .team-item {
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380;
 }
 
 .team-img {
-  padding-bottom: 32px;
+}
+.team-item-data {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  background-color: #fff;
 }
 /*-----Our Portfolio-----*/
-
+.title-second-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.title-third-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
