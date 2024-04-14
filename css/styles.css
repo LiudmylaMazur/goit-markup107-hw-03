@@ -30,6 +30,7 @@ img {
 }
 button {
   cursor: pointer;
+  border: none;
 }
 address {
   font-style: normal;
@@ -147,6 +148,9 @@ address {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .title-button:hover,
